@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collection", "Collection", "{4AD882E0-197F-4E68-A5D9-BE9347A33E97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Core.Collection.IEnumerableAndIEnumerator", "CSharp.Core.Collection.IEnumerableAndIEnumerator\CSharp.Core.Collection.IEnumerableAndIEnumerator.csproj", "{13CADBF3-09F6-4DDF-8A26-4D9DC5EEAF37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[01]CSharp.Core.Collection.IEnumerableAndIEnumerator", "CSharp.Core.Collection.IEnumerableAndIEnumerator\[01]CSharp.Core.Collection.IEnumerableAndIEnumerator.csproj", "{13CADBF3-09F6-4DDF-8A26-4D9DC5EEAF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[02]CSharp.Core.Collection.ICollection", "CSharp.Core.Collection.ICollection\[02]CSharp.Core.Collection.ICollection.csproj", "{7271F64E-1EF2-4C27-BC7D-FC66E43BF1ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[03]CSharp.Core.Collection.IList", "CSharp.Core.Collection.IList\[03]CSharp.Core.Collection.IList.csproj", "{53B55F9A-A380-4E38-AD81-43062513D282}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,22 @@ Global
 		{13CADBF3-09F6-4DDF-8A26-4D9DC5EEAF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13CADBF3-09F6-4DDF-8A26-4D9DC5EEAF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13CADBF3-09F6-4DDF-8A26-4D9DC5EEAF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7271F64E-1EF2-4C27-BC7D-FC66E43BF1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7271F64E-1EF2-4C27-BC7D-FC66E43BF1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7271F64E-1EF2-4C27-BC7D-FC66E43BF1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7271F64E-1EF2-4C27-BC7D-FC66E43BF1ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B55F9A-A380-4E38-AD81-43062513D282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B55F9A-A380-4E38-AD81-43062513D282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B55F9A-A380-4E38-AD81-43062513D282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B55F9A-A380-4E38-AD81-43062513D282}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{13CADBF3-09F6-4DDF-8A26-4D9DC5EEAF37} = {4AD882E0-197F-4E68-A5D9-BE9347A33E97}
+		{7271F64E-1EF2-4C27-BC7D-FC66E43BF1ED} = {4AD882E0-197F-4E68-A5D9-BE9347A33E97}
+		{53B55F9A-A380-4E38-AD81-43062513D282} = {4AD882E0-197F-4E68-A5D9-BE9347A33E97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1097F3E3-D3C2-4A00-9614-608144C5CA58}
