@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 namespace CSharp.Core.Collection.ICollection1
 {
+    /// <summary>
+    /// 提供Count、Add、Remove、Clear、Contains
+    /// </summary>
     class Program
     {
         /// <summary>

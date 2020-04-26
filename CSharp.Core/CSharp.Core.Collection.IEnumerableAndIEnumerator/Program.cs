@@ -5,6 +5,9 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace CSharp.Core.Collection.IEnumerableAndIEnumerator
 {
+    /// <summary>
+    /// 仅提供迭代访问
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
