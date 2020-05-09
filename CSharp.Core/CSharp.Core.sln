@@ -85,7 +85,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Core.Collection.Keye
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Core.Collection.ReadOnlyCollection", "CSharp.Core.Collection.ReadOnlyCollection\CSharp.Core.Collection.ReadOnlyCollection.csproj", "{9041369A-10A0-4471-ACED-E86265AC1781}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Core.Collection.IOrderedEnumerable", "CSharp.Core.Collection.IOrderedEnumerable\CSharp.Core.Collection.IOrderedEnumerable.csproj", "{182C7C86-F90E-42C1-97B8-86B91DECFBF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Core.Collection.IOrderedEnumerable", "CSharp.Core.Collection.IOrderedEnumerable\CSharp.Core.Collection.IOrderedEnumerable.csproj", "{182C7C86-F90E-42C1-97B8-86B91DECFBF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enum", "Enum", "{95CB3F0C-819A-49F6-B0AA-2A743E581E9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Core.Enum.Tools", "CSharp.Core.Enum.Tools\CSharp.Core.Enum.Tools.csproj", "{664CE69D-A4E0-4DA2-A307-08EE328E94D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -205,6 +209,10 @@ Global
 		{182C7C86-F90E-42C1-97B8-86B91DECFBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{182C7C86-F90E-42C1-97B8-86B91DECFBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{182C7C86-F90E-42C1-97B8-86B91DECFBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664CE69D-A4E0-4DA2-A307-08EE328E94D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664CE69D-A4E0-4DA2-A307-08EE328E94D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664CE69D-A4E0-4DA2-A307-08EE328E94D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664CE69D-A4E0-4DA2-A307-08EE328E94D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -251,6 +259,7 @@ Global
 		{39C1C55A-A2AC-40F7-9AEC-CD7C894F3BD7} = {FACAC099-62D1-49DB-B207-4D3F85F4F1F2}
 		{9041369A-10A0-4471-ACED-E86265AC1781} = {FACAC099-62D1-49DB-B207-4D3F85F4F1F2}
 		{182C7C86-F90E-42C1-97B8-86B91DECFBF4} = {EE7454C1-C61C-4C6F-9B66-F800D62CF495}
+		{664CE69D-A4E0-4DA2-A307-08EE328E94D9} = {95CB3F0C-819A-49F6-B0AA-2A743E581E9C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1097F3E3-D3C2-4A00-9614-608144C5CA58}
