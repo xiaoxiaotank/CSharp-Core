@@ -16,6 +16,9 @@ namespace CSharp.Core.Enum1.Tools
             {
                 Console.WriteLine($"{item}:{item.GetDescription()}");
             }
+
+            var gender1 = EnumHelper.GetValue<Gender>("Male");
+            var gender2 = EnumHelper.GetValue<Gender>("NotExist");
         }
     }
 

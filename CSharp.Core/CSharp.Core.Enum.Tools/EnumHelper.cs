@@ -29,5 +29,16 @@ namespace CSharp.Core.Enum1.Tools
 
             return Enum.GetValues(typeof(TEnum)).Cast<TEnum>();
         }
+
+        /// <summary>
+        /// 根据字符串获取对应 <typeparamref name="TEnum"/> 的枚举值
+        /// </summary>
+        /// <typeparam name="TEnum"></typeparam>
+        /// <param name="name"></param>
+        /// <returns>若不存在相应枚举值，则返回默认值0</returns>
+        public static TEnum GetValue<TEnum>(string name) where TEnum : struct, Enum
+        {
+            return Enum.TryParse(name, out TEnum value) ? value : default;
+        }
     }
 }
