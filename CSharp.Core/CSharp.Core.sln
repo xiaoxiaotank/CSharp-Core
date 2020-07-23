@@ -97,9 +97,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Core.Special.CoreCla
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IO", "IO", "{3CE93754-D685-4CDD-A6BC-F0B4CE027A32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Core.IO.FileStream", "Csharp.Core.IO.FileStream\CSharp.Core.IO.FileStream.csproj", "{3C4D0813-B3D8-4AEF-B51E-CEC17BCADFE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Core.IO.FileStream", "Csharp.Core.IO.FileStream\CSharp.Core.IO.FileStream.csproj", "{3C4D0813-B3D8-4AEF-B51E-CEC17BCADFE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Core.IO.MemoryMappedFile", "CSharp.Core.IO.MemoryMappedFile\CSharp.Core.IO.MemoryMappedFile.csproj", "{EC971DFE-5835-43D8-B9E1-2649AF40F13F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Core.IO.MemoryMappedFile", "CSharp.Core.IO.MemoryMappedFile\CSharp.Core.IO.MemoryMappedFile.csproj", "{EC971DFE-5835-43D8-B9E1-2649AF40F13F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Core.IO.MemoryStream", "CSharp.Core.IO.MemoryStream\CSharp.Core.IO.MemoryStream.csproj", "{9E4C4CD8-AA30-4599-895D-AEBDDAD086D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -235,6 +237,10 @@ Global
 		{EC971DFE-5835-43D8-B9E1-2649AF40F13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC971DFE-5835-43D8-B9E1-2649AF40F13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC971DFE-5835-43D8-B9E1-2649AF40F13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4C4CD8-AA30-4599-895D-AEBDDAD086D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4C4CD8-AA30-4599-895D-AEBDDAD086D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4C4CD8-AA30-4599-895D-AEBDDAD086D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4C4CD8-AA30-4599-895D-AEBDDAD086D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -285,6 +291,7 @@ Global
 		{F684B836-391C-4B41-BA49-89EA4FCC7B93} = {7A30C586-EBA6-4BFF-BA46-8D72E4748A18}
 		{3C4D0813-B3D8-4AEF-B51E-CEC17BCADFE7} = {3CE93754-D685-4CDD-A6BC-F0B4CE027A32}
 		{EC971DFE-5835-43D8-B9E1-2649AF40F13F} = {3CE93754-D685-4CDD-A6BC-F0B4CE027A32}
+		{9E4C4CD8-AA30-4599-895D-AEBDDAD086D7} = {3CE93754-D685-4CDD-A6BC-F0B4CE027A32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1097F3E3-D3C2-4A00-9614-608144C5CA58}
