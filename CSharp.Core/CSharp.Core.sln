@@ -105,6 +105,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Core.IO.MemoryStream
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Core.IO.PipeStream", "CSharp.Core.IO.PipeStream\CSharp.Core.IO.PipeStream.csproj", "{36FFCB75-17FE-4B08-B316-FC61A4D99BA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Core.IO.BufferedStream", "CSharp.Core.IO.BufferedStream\CSharp.Core.IO.BufferedStream.csproj", "{3481519D-47A3-4838-802F-F8374D2FC67D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -247,6 +249,10 @@ Global
 		{36FFCB75-17FE-4B08-B316-FC61A4D99BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36FFCB75-17FE-4B08-B316-FC61A4D99BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36FFCB75-17FE-4B08-B316-FC61A4D99BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3481519D-47A3-4838-802F-F8374D2FC67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3481519D-47A3-4838-802F-F8374D2FC67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3481519D-47A3-4838-802F-F8374D2FC67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3481519D-47A3-4838-802F-F8374D2FC67D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -299,6 +305,7 @@ Global
 		{EC971DFE-5835-43D8-B9E1-2649AF40F13F} = {3CE93754-D685-4CDD-A6BC-F0B4CE027A32}
 		{9E4C4CD8-AA30-4599-895D-AEBDDAD086D7} = {3CE93754-D685-4CDD-A6BC-F0B4CE027A32}
 		{36FFCB75-17FE-4B08-B316-FC61A4D99BA7} = {3CE93754-D685-4CDD-A6BC-F0B4CE027A32}
+		{3481519D-47A3-4838-802F-F8374D2FC67D} = {3CE93754-D685-4CDD-A6BC-F0B4CE027A32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1097F3E3-D3C2-4A00-9614-608144C5CA58}
